@@ -5,7 +5,6 @@
 
 var stringifyJSON = function(obj) {
 	var objType = typeof obj;
-  debugger;
 	if(objType === "function" || objType === "undefined") {
   	return undefined;
   }
